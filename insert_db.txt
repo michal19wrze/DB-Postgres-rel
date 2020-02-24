@@ -1,0 +1,116 @@
+INSERT INTO trener VALUES(1,'Jupp','Heynckess');
+INSERT INTO trener VALUES(2,'Domenico','Tedesco');
+INSERT INTO trener VALUES(3,'Peter','Stoger');
+INSERT INTO trener VALUES(4,'Heiko','Herrlich');
+INSERT INTO trener VALUES(5,'Niko','Kovac');
+INSERT INTO trener VALUES(6,'Ralph','Hasenhuttl');
+INSERT INTO trener VALUES(7,'Julian','Nagelsmann');
+INSERT INTO trener VALUES(8,'Dieter','Hecking');
+INSERT INTO trener VALUES(9,'Tayfun','Korkut');
+INSERT INTO trener VALUES(10,'Pal','Dardai');
+INSERT INTO trener VALUES(11,'Manuel','Baum');
+INSERT INTO trener VALUES(12,'Florian','Kohfeldt');
+INSERT INTO trener VALUES(13,'Andre','Breitenreiter');
+INSERT INTO trener VALUES(14,'Christian','Streich');
+INSERT INTO trener VALUES(15,'Bruno','Labbadia');
+INSERT INTO trener VALUES(16,'Sandro','Schwarz');
+INSERT INTO trener VALUES(17,'Bernd','Hollerbach');
+INSERT INTO trener VALUES(18,'Stephan','Ruthenbeck');
+INSERT INTO klub_stadion VALUES(1,1,'Bayern Munich','Alianz Arena',75000,'Monachium');
+INSERT INTO klub_stadion VALUES(2,2,'Schalke 04','Veltins-Arena',62271,'Gelsenkirchen');
+INSERT INTO klub_stadion VALUES(3,3,'Borrusia Dortmund','Signal Iduna Park',81359,'Dortmund');
+INSERT INTO klub_stadion VALUES(4,4,'Bayer Leverkusen','BayArena',30210,'Leverkusen');
+INSERT INTO klub_stadion VALUES(5,5,'Eintracht Frankfurt','Commerzbank-Arena',51500,'Frankfurt');
+INSERT INTO klub_stadion VALUES(6,6,'RB Leipzig','Red Bull Arena',42959,'Lipsk');
+INSERT INTO klub_stadion VALUES(7,7,'TSG Hoffenheim','Rhein-Neckar-Arena',30150,'Sinsheim');
+INSERT INTO klub_stadion VALUES(8,8,'Borrusia Monchengladbach','Borrusia-Park',54057,'Monchengladbach');
+INSERT INTO klub_stadion VALUES(9,9,'VfB Stuttgart','Merdcedes-Benz Arena',60449,'Sttutgard');
+INSERT INTO klub_stadion VALUES(10,10,'Hertha Berlin','Olimpic Stadion',74475,'Berlin');
+INSERT INTO klub_stadion VALUES(11,11,'FC Augsburg','WWK Arena',30660,'Augsburg');
+INSERT INTO klub_stadion VALUES(12,12,'Werder Bremen','Weserstadion',42100,'Brema');
+INSERT INTO klub_stadion VALUES(13,13,'Hannover 96','AWD-Arena',49000,'Hannover');
+INSERT INTO klub_stadion VALUES(14,14,'SC Freiburg','Schwarzwald-Stadion',24000,'Fryburg Bryzgowijski');
+INSERT INTO klub_stadion VALUES(15,15,'VfL Wolfsburg','Volkswagen-Arena',30000,'Wolfsburg');
+INSERT INTO klub_stadion VALUES(16,16,'Mainz 05','Opel Arena',34000,'Moguncja');
+INSERT INTO klub_stadion VALUES(17,17,'Hamburger SV','Volksparkstadion',57274,'Hamburg');
+INSERT INTO klub_stadion VALUES(18,18,'FC Cologne','RheinEnergieStadion',49968,'Kolonia');
+INSERT INTO pilkarz VALUES(1,1,'James','Rodriguez','Pomocnik',1991,180),(2,1,'Manuel','Neuer','Bramkarz',1986,193),
+(3,1,'Robert','Lewandowski','Napastnik',1988,185),(4,1,'Sandro','Wagner','Napastnik',1987,194),
+(5,1,'Arjen','Robben','Pomocnik',1984,180),(6,1,'Thomas','Muller','Napastnik',1989,186),(7,1,'Jerome','Boateng','Obroñca',1988,192),(8,1,'Arturo','Vidal','Pomocnik',1987,181),
+(9,2,'Ronaldo','Aperacido','Pomocnik',1982,198),(10,2,'Marko','Pjaca','Napastnik',1995,186),
+(11,2,'Leon','Goretzka','Pomocnik',1995,189),(12,2,'Amine','Harit','Pomocnik',1997,179),
+(13,2,'Nabil','Bentaleb','Pomocnik',1994,187),(14,2,'Jewhen','Konoplanka','Pomocnik',1989,176),
+(15,2,'Breel','Embolo','Napastnik',1997,185),(16,2,'Thilo','Kehrer','Obroñca',1996,186),
+(17,3,'Marco','Reus','Pomocnik',1989,180),(18,3,'Mario','Gotze','Pomocnik',1992,176),
+(19,3,'Sokratis','Papastathopoulos','Obroñca',1988,186),(20,3,'Shinji','Kagawa','Pomocnik',1989,172),
+(21,3,'Marcel','Schmelzer','Obroñca',1988,181),(22,3,'Jadon','Sancho','Pomocnik',2000,180),
+(23,3,'Roman','Burki','Bramkarz',1990,187),(24,3,'£ukasz','Piszczek','Obroñca',1985,184),
+(25,4,'Leon','Bailey','Napastnik',1997,180),(26,4,'Bernd','Leno','Bramkarz',1992,190),
+(27,4,'Wendell','Nascimento','Obroñca',1993,176),(28,4,'Lucas','Alario','Napastnik',1992,184),
+(29,4,'Julian','Brandt','Napastnik',1996,183),(30,4,'Jonathan','Tah','Obroñca',1996,194),
+(31,4,'Kevin','Volland','Napastnik',1992,179),(32,4,'Kerim','Bellarabi','Pomocnik',1990,184),
+(33,5,'Ante','Rebiæ','Napastnik',1993,185),(34,5,'Alexander','Meier','Pomocnik',1983,196),
+(35,5,'Lucas','Hradecky','Bramkarz',1989,187),(36,5,'Marco','Fabian','Pomocnik',1989,171),
+(37,5,'Makoto','Hasebe','Pomocnik',1984,180),(38,5,'Mijat','Gacinowiæ','Pomocnik',1995,175),
+(39,5,'Marius','Wolf','Pomocnik',1995,187),(40,5,'Marco','Russ','Obroñca',1985,190),
+(41,6,'Naby','Keita','Pomocnik',1995,172),(42,6,'Timo','Werner','Napastnik',1996,181),
+(43,6,'Emil','Fosberg','Napastnik',1991,179),(44,6,'Ademola','Lookman','Napastnik',1997,174),
+(45,6,'Dominik','Kaiser','Pomocnik',1988,171),(46,6,'Yussuf','Poulsen','Napastnik',1994,193),
+(47,6,'Marcel','Sabitzer','Napastnik',1994,177),(48,6,'Willi','Orban','Obroñca',1992,186),
+(49,7,'Kevin','Vogt','Obroñca',1991,194),(50,7,'Andrej','Kramaric','Napastnik',1991,177),
+(51,7,'Mark','Uth','Napastnik',1991,185),(52,7,'Pavel','Kaderabek','Obroñca',1992,182),
+(53,7,'Nadiem','Amiri','Pomocnik',1996,180),(54,7,'Serge','Gnabry','Napastnik',1995,173),
+(55,7,'Benjanin','Hubner','Obroñca',1989,193),(56,7,'Dennis','Geiger','Pomocnik',1998,172),
+(57,8,'Thorgan','Hazard','Pomocnik',1993,174),(58,8,'Yan','Sommer','Bramkarz',1988,183),
+(59,8,'Christoph','Kramer','Pomocnik',1991,190),(60,8,'Lars','Stindll','Napastnik',1988,180),
+(61,8,'Vincent','Grifo','Napastnik',1993,180),(62,8,'Patrick','Hermann','Napastnik',1991,179),
+(63,8,'Jannik','Vestergaard','Obroñca',1992,199),(64,8,'Ibrahima','Traore','Pomocnik',1988,176),
+(65,9,'Mario','Gomez','Napastnik',1985,189),(66,9,'Benjamin','Pavard','Obroñca',1996,186),
+(67,9,'Pablo','Maffeo','Obroñca',1997,173),(68,9,'Holger','Badstuber','Obroñca',1989,190),
+(69,9,'Anastasios','Donis','Napastnik',1996,178),(70,9,'Christian','Gentner','Pomocnik',1985,189),
+(71,9,'Daniel','Ginczek','Napastnik',1991,191),(72,9,'Emiliano','Insua','Obroñca',1989,179),
+(73,10,'Salomon','Kalou','Pomocnik',1985,184),(74,10,'Davie','Selke','Napastnik',1995,192),
+(75,10,'Mitchel','Weiser','Obroñca',1994,176),(76,10,'Vedad','Ibiseviæ','Napastnik',1984,188),
+(77,10,'Valentino','Lazaro','Napastnik',1996,178),(78,10,'Rune','Jarstein','Bramkarz',1984,190),
+(79,10,'Vladimir','Darida','Pomocnik',1990,171),(80,10,'Peter','Pekarik','Obroñca',1986,176),
+(81,11,'Philipp','Max','Obroñca',1993,177),(82,11,'Michael','Gregoritsch','Napastnik',1994,193),
+(83,11,'Daniel','Opare','Obroñca',1990,173),(84,11,'Daniel','Baier','Pomocnik',1984,174),
+(85,11,'Rani','Khedira','Pomocnik',1994,188),(86,11,'Andreas','Luthe','Bramkarz',1987,195),
+(87,11,'Martin','Hinteregger','Obroñca',1992,184),(88,11,'Fabian','Giefer','Bramkarz',1990,196),
+(89,12,'Max','Kruse','Napastnik',1988,181),(90,12,'Thomas','Delaney','Pomocnik',1991,182),
+(91,12,'Zlatko','Junuzoviæ','Pomocnik',1987,172),(92,12,'Fin','Bartels','Pomocnik',1987,176),
+(93,12,'Robert','Bauer','Obroñca',1995,183),(94,12,'Ishak','Befodil','Napastnik',1992,191),
+(95,12,'Milot','Rashica','Pomocnik',1996,178),(96,12,'Nikolas','Moisander','Obroñca',1985,183),
+(97,13,'Salif','Sane','Obroñca',1990,196),(98,13,'Martin','Harnik','Napastnik',1987,185),
+(99,13,'Felix','Klaus','Napastnik',1992,179),(100,13,'Philipp','Tschauner','Bramkarz',1985,196),
+(101,13,'Edgar','Prib','Pomocnik',1989,181),(102,13,'Miiko','Albornoz','Obroñca',1990,180),
+(103,13,'Manuel','Schmiedebach','Pomocnik',1988,174),(104,13,'Kenan','Karaman','Napastnik',1994,191),
+(105,14,'Nils','Petersen','Napastnik',1988,188),(106,14,'Alexander','Schwolow','Bramkarz',1992,189),
+(107,14,'Bartosz','Kapustka','Pomocnik',1996,179),(108,14,'Christian','Gunter','Obroñca',1993,185),
+(109,14,'Florian','Niederlechner','Napastnik',1990,186),(110,14,'Janik','Haberer','Pomocnik',1994,186),
+(111,14,'Philipp','Lienhart','Obroñca',1996,185),(112,14,'Yoric','Ravet','Pomocnik',1989,178),
+(113,15,'Divock','Origi','Napastnik',1995,185),(114,15,'Jakub','B³aszczykowski','Pomocnik',1985,176),
+(115,15,'Yunus','Malli','Pomocnik',1992,179),(116,15,'Daniel','Didavi','Pomocnik',1990,180),
+(117,15,'John','Brooks','Obroñca',1993,193),(118,15,'Ignacio','Camacho','Pomocnik',1990,182),
+(119,15,'Jeffrey','Bruma','Obroñca',1991,189),(120,15,'Koen','Casteels','Bramkarz',1992,196),
+(121,16,'Yoshinori','Muto','Pomocnik',1992,178),(122,16,'Abdou','Diabllo','Obroñca',1996,188),
+(123,16,'Leon','Balogun','Obroñca',1988,190),(124,16,'Pablo','de Blasis','Napastnik',1988,165),
+(125,16,'Suat','Serdar','Pomocnik',1997,183),(126,16,'Giulio','Donati','Obroñca',1990,178),
+(127,16,'Nigel','de Jong','Pomocnik',1984,174),(128,16,'Robin','Quaison','Pomocnik',1993,186),
+(129,17,'Lewis','Holtby','Pomocnik',1990,176),(130,17,'Gotoku','Sakai','Obroñca',1991,178),
+(131,17,'Tatsuya','Ito','Napastnik',1997,179),(132,17,'Kriakos','Papadopulos','Obroñca',1992,177),
+(133,17,'Nicolai','Muller','Pomocnik',1987,183),(134,17,'Denis','Diekmeier','Obroñca',1989,186),
+(135,17,'Aaron','Hunt','Pomocnik',1986,182),(136,17,'Bobby','Wood','Napastnik',1992,181),
+(137,18,'Jonas','Hector','Pomocnik',1990,176),(138,18,'Dominique','Heintz','Obroñca',1993,188),
+(139,18,'Timo','Horn','Bramkarz',1993,193),(140,18,'Leonardo','Bittencourt','Pomocnik',1993,171),
+(141,18,'Claudio','Pizzaro','Napastnik',1978,178),(142,18,'Dominic','Maroh','Obroñca',1987,182),
+(143,18,'Jhon','Cordoba','Napastnik',1993,188),(144,18,'Marcel','Risse','Pomocnik',1989,179);
+INSERT INTO trofeum VALUES(1,'Puchar Niemiec 2010',2),(2,'Puchar Niemiec 2011',3),(3,'Puchar Niemiec 2012',3),
+(4,'Puchar Niemiec 2013',1),(5,'Puchar Niemiec 2014',1),(6,'Puchar Niemiec 2015',15),(7,'Puchar Niemiec 2016',1),
+(8,'Puchar Niemiec 2017',3),(9,'Puchar Niemiec 2018',5);
+INSERT INTO mecz VALUES(1,1,15,'1:4'),(2,7,3,'3:1'),(3,10,6,'2:6'),(4,14,11,'2:0'),(5,2,5,'1:0'),(6,4,13,'3:2'),(7,17,8,'2:1'),(8,15,18,'4:1'),(9,12,16,'2:1'),
+(10,1,4,'3:1'),(11,7,12,'1:0'),(12,17,11,'1:0'),(13,16,13,'0:1'),(14,15,3,'0:3'),(15,2,6,'2:0'),(16,14,5,'0:0'),(17,8,18,'1:0'),(18,13,10,'3:1'),(19,12,4,'0:0'),
+(20,9,7,'2:0'),(21,18,1,'1:3'),(22,6,15,'4:1'),(23,11,2,'1:2'),(24,3,16,'1:2'),(25,8,14,'3:1'),(26,5,17,'3:0'),(27,7,13,'3:1'),(28,14,18,'3:2'),(29,15,17,'1:3'),
+(30,2,8,'1:1'),(31,10,11,'2:2'),(43,1,5,'4:1'),(32,4,9,'0:1'),(33,16,6,'3:0'),(34,12,3,'1:1'),(35,8,15,'3:0'),(36,13,1,'0:3'),(37,6,7,'2:5'),(38,9,12,'2:0'),
+(40,17,14,'1:0'),(41,5,10,'0:3'),(42,3,4,'4:0'),(44,11,16,'2:0'),(45,18,2,'2:2'),(46,15,11,'0:0'),(47,9,13,'1:1'),(48,7,17,'2:0'),(49,10,18,'2:1'),(50,4,5,'4:1'),
+(51,1,8,'5:1'),(52,2,3,'2:0'),(53,12,6,'1:1'),(54,16,11,'2;0');
