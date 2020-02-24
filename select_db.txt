@@ -1,0 +1,76 @@
+#Z£¹czenie z Inner join
+
+SELECT imie, nazwisko, pozycja from pilkarz JOIN klub_stadion ON pilkarz.id_zawodnika=klub_stadion.id_klub;
+
+#Z³¹czenie bez inner join
+
+SELECT * from klub_stadion,pilkarz where klub_stadion.id_klub =  pilkarz.id_klub;
+
+#Grupowanie
+
+SELECT nazwisko,wzrost from pilkarz where wzrost>190 ORDER BY wzrost ASC;
+
+#Funkcje agreguj¹ce
+
+Select wzrost from pilkarz group by pilkarz.wzrost having count(*)>1;
+
+#Operacje arytmetyczne
+
+Select sum(wzrost)/count(wzrost);
+Select sum(2018-rok_uro)/count(rok_uro) from pilkarz;
+
+#Uzycie zagniezdzenia skorelowanego
+
+Select imie, nazwisko, pozycja from pilkarz where imie IN(
+select imie from pilkarz group by imie HAVING count(imie)>1) order by imie desc;
+
+#Uzycie zagniezdzenia nieskorelowanego
+
+Select imie, nazwisko, pozycja,wzrost from pilkarz p join klub_stadion k ON p.id_klub = k.id_klub
+where wzrost > (SELECT sum(wzrost)/count(wzrost) from pilkarz where p.pozycja = 'Bramkarz');
+
+#Sprawdzanie warunku null
+
+Select nazwisko, wzrost from pilkarz where wzrost NOT IN(Select wzrost from pilkarz where
+pozycja ='Obroñca' and wzrost is not null);
+
+#Zapytanie negatywne $2
+
+
+Select imie, nazwisko, pozycja from pilkarz where pozycja not in(select pozycja from pilkarz
+where pozycja ='Pomocnik')order by pozycja asc;
+
+#Aktualizacja wierszy w tabeli
+
+UPDATE pilkarz set wzrost=183 where id_zawodnika=131;
+
+#Usuwanie z tabeli
+
+Delete from trener where id_trener = 2;
+
+
+
+#POPRAWIONE:
+#Zapytanie negatywne
+
+Select * from klub_stadion where id_klub not in (select id_klub from trofeum);
+
+#Zapytanie skorelowane 
+
+Select imie, nazwisko, wzrost, id_zawodnika from pilkarz where wzrost < ( select avg(wzrost)
+from pilkarz);
+
+#zapytanie viev
+
+CREATE VIEW spis_pilkarzy AS
+SELECT imie,nazwisko, id_zawodnika
+FROM pilkarz GROUP BY id_zawodnika;
+
+#zapytania like $2
+
+SELECT * from pilkarz where imie like 'Mar%';
+
+SELEct * from klub_stadion where nazwa_stadionu like '_i%';
+
+
+
